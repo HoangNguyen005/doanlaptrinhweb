@@ -1,0 +1,123 @@
+footer {
+    padding: 50px 0;
+    color: var(--white-text-color);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.redd.it/jbtxglasnxb71.jpg) no-repeat center/cover;
+    /* background-attachment: fixed; */
+}
+.footer-contact__item {
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+}
+
+.footer-contact__item{
+    margin-top: 40px;
+}
+.footer-contact__item i {
+    font-size: 3rem;
+    color: var(--primary-color);
+}
+
+.footer-contact__item p {
+    font-size: 1.4rem;
+    line-height: 2.2rem;
+}
+
+.footer-bottom--left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-bottom--left .logo {
+    width: 200px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.footer-bottom--left .address {
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    color: var(--white-text-color);
+}
+
+.footer-bottom--left .address i {
+    font-size: 2.2rem;
+    margin-right: 6px;
+    color: var(--primary-color);
+}
+
+
+.footer-bottom--center i {
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0 4px;
+    cursor: pointer;
+    background-color: var(--white-color);
+    color: var(--primary-color);
+}
+
+.footer-bottom--center i:hover {
+    transform: scale(1.1);
+}
+
+.footer-bottom--right h4 {
+    text-transform: uppercase;
+}
+
+.footer-bottom--right p {
+    text-transform: capitalize;
+    font-size: 1.2rem;
+    max-width: 200px;
+}
+
+.footer-bottom--right .form-input{
+    width: 300px;
+    height: 40px;
+    border: 1px solid var(--border-color);
+    background-color: #fff;
+}
+
+.footer-bottom--right .form-input input {
+    border: none;
+    outline: none;
+    flex: 1;
+    height: 100%;
+    padding: 12px;
+}
+
+.footer-bottom--right .form-input input::placeholder {
+    font-size: 1.2rem;
+}
+
+.footer-bottom--right .form-input i {
+    color: var(--primary-color);
+    width: 40px;
+    height: 100%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    background-color: #333;
+}
+
+.footer-bottom--left,
+.footer-bottom--center,
+.footer-bottom--right {
+    margin-top: 40px !important;
+}
+
+.footer-copyright {
+    text-align: center;
+    font-size: 1.1rem;
+    margin-top: 40px;
+    color: #7f7f7f;
+    user-select: none;
+}
+
+

@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <!-- <link rel="stylesheet" href="../assets/css/brand.css"> -->
+    <link rel="stylesheet" href="../assets/css/responsive.css">
+    <link rel="stylesheet" href="../assets/css/form.css">
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="../assets/images/logo.png" type="image/x-icon">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+
+    <script>
+        function myFunction() {
+            loadScript('../assets/components/header.html', 'header')
+            loadScript('../assets/components/footer.html', 'footer')
+        }
+    </script>
+
+</head>
+
+<body onload="myFunction()">
+    <section id="header"></section>
+    <div class="car__home">
+        <div class="img-container d-flex justify-content-center">
+            <img src="./assets/images/background/banner_bg02.jpg" class="image-bg" alt="">
+            <img src="./assets/images/background/2024-BMW-520i-1.jpg" class="image-bg" alt="">
+            <img src="./assets/images/background/ccf6fec015fcc6a29fed.webp" class="image-bg" alt="">
+            <h1 class="car__title">
+                KHẲNG ĐỊNH <br>
+                <div class="car__title--set">ĐẲNG CẤP</div>
+                <br> CHINH PHỤC <br>
+                <div class="car__title--set">MỌI HÀNH TRÌNH</div>
+            </h1>
+
+            <a class="button button-effect2 car__button--book" href="form.html">ĐẶT XE NGAY</a>
+        </div>
+
+
+        <section id="product">
+            <h1 class="product-header">SẢN PHẨM NỔI BẬT</h1>
+            <div class="container">
+                <div class="row car-list">
+                    <!-- <div class="col col-sm-12 col-md-6 col-lg-4">
+                        <div class="car-item">
+                        <div class="car-item-img">
+                            <img src="./car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg" alt="">
+                            <i class="cart-icon fa-solid fa-cart-plus"></i>
+                        </div>
+                        <div class="car-item-content">
+                            <h2 class="car-name">Audi rs e tron gt</h2>
+                            <div class="car-parameter">
+                                <div class="parameter">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <p class="parameter-name">automatic</p>
+                                </div>
+                                <div class="parameter">
+                                    <i class="fa-solid fa-gas-pump"></i>
+                                    <p class="parameter-name">diesel</p>
+                                </div>
+                                <div class="parameter">
+                                    <i style="color: rgb(255, 106, 0)" class="fa-solid fa-road"></i>
+                                    <p class="parameter-name">7500km</p>
+                                </div>
+                            </div>
+                            <hr style="width: calc(100% + 30px); transform: translateX(-15px); border-color: #f8f8f8">
+                            <div class="car-item-bottom">
+                                <div class="car-item-rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="car-item-price">
+                                    <span>Giá: </span>
+                                    <span class="price">2300</span>
+                                    <span>/mo</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-4">
+                    <div class="car-item">
+                        <div class="car-item-img">
+                            <img src="./car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg" alt="">
+                            <i class="cart-icon fa-solid fa-cart-plus"></i>
+                        </div>
+                        <div class="car-item-content">
+                            <h2 class="car-name">Audi rs e tron gt</h2>
+                            <div class="car-parameter">
+                                <div class="parameter">
+                                    <i class="fa-solid fa-gear"></i>
+                                    <p class="parameter-name">automatic</p>
+                                </div>
+                                <div class="parameter">
+                                    <i class="fa-solid fa-gas-pump"></i>
+                                    <p class="parameter-name">diesel</p>
+                                </div>
+                                <div class="parameter">
+                                    <i style="color: rgb(255, 106, 0)" class="fa-solid fa-road"></i>
+                                    <p class="parameter-name">7500km</p>
+                                </div>
+                            </div>
+                            <hr style="width: calc(100% + 30px); transform: translateX(-15px); border-color: #f8f8f8">
+                            <div class="car-item-bottom">
+                                <div class="car-item-rating">
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <div class="car-item-price">
+                                    <span>Giá: </span>
+                                    <span class="price">2300</span>
+                                    <span>/mo</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-12 col-md-6 col-lg-4">
+                <div class="car-item">
+                    <div class="car-item-img">
+                        <img src="./car/Audi/883x883-audi-rs-e-tron-gt-highlighted-car-teaser.jpg" alt="">
+                        <i class="cart-icon fa-solid fa-cart-plus"></i>
+                    </div>
+                    <div class="car-item-content">
+                        <h2 class="car-name">Audi rs e tron gt</h2>
+                        <div class="car-parameter">
+                            <div class="parameter">
+                                <i class="fa-solid fa-gear"></i>
+                                <p class="parameter-name">automatic</p>
+                            </div>
+                            <div class="parameter">
+                                <i class="fa-solid fa-gas-pump"></i>
+                                <p class="parameter-name">diesel</p>
+                            </div>
+                            <div class="parameter">
+                                <i style="color: rgb(255, 106, 0)" class="fa-solid fa-road"></i>
+                                <p class="parameter-name">7500km</p>
+                            </div>
+                        </div>
+                        <hr style="width: calc(100% + 30px); transform: translateX(-15px); border-color: #f8f8f8">
+                        <div class="car-item-bottom">
+                            <div class="car-item-rating">
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="car-item-price">
+                                <span>Giá: </span>
+                                <span class="price">2300</span>
+                                <span>/mo</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div> -->
+                </div>
+            </div>
+            <div class="d-flex justify-content-center">
+                <a href="/audi.html" class="button btn-show button-effect2"> Xem thêm</a>
+
+            </div>
+        </section>
+
+        <!-- car-service -->
+        <section class="car-service">
+            <div class="container">
+                <div class="row">
+                    <div class="car-service__img col-xl-6 col-md-12">
+                        <div class="wrap">
+                            <p>99<span style="color: var(--primary-color);">+</span> </p>
+                            <img src="./assets/images/Service-img/img_service_2.jpeg" alt="">
+                        </div>
+                        <img src="./assets/images/Service-img/img_service_1.jpeg" class="car-service__img--set" alt="">
+                    </div>
+                    <div class="car-service__content col-xl-6 col-md-12">
+                        <h3 class="car-service__title">Về chúng tôi</h3>
+                        <div class="car-service__slogan">“Mở lối hành trình <br>
+                            <div class="car-service__slogan--set">Vững vàng tương lai”</div>
+                        </div>
+                        <div class="car-service__desc">
+                            <img src="./assets/images/Service-img/m.png" alt="">
+                            <p>Phân phối các dòng xe ô tô cao cấp
+                                mang đến trải nghiệm mua sắm và dịch vụ hậu mãi chuyên nghiệp.
+                                Chúng tôi cam kết cung cấp những mẫu xe hiện đại, sang trọng,
+                                đáp ứng mọi nhu cầu di chuyển của bạn.
+                            </p>
+                        </div>
+                        <ul class="car-service__criteria criteria-sample">
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <p>
+                                    Chất lượng xe: Phân phối xe cao cấp, uy tín.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <p>
+                                    Dịch vụ khách hàng: Tư vấn chuyên nghiệp, tận tâm.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <p>
+                                    Hậu mãi: Bảo hành, bảo dưỡng chu đáo.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <p>
+                                    Minh bạch: Giá cả rõ ràng, thông tin minh bạch.
+                                </p>
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-check"></i>
+                                <p>
+                                    Trải nghiệm: Showroom sang trọng, tiện nghi.
+                                </p>
+                            </li>
+                        </ul>
+                        <div class="car-service__button button button-effect2">TÌM HIỂU THÊM</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end car-service -->
+
+        <!--car-news -->
+        <div class="car-news">
+            <div class="news">
+                <p> Tin Tức Mới Nhất </p>
+                <h3>Cập Nhập Tin Tức & Bài Viết</h3>
+                <hr>
+            </div>
+            <div class="container">
+                <div class="row father-box g-3">
+                    <div class="box col-xl-4 col-md-12 col-sm-12">
+                        <div class="car-news-img">
+                            <img src="./assets/images/news-img/anh-new3.png">
+                        </div>
+                        <h6>Thiết Kế Sáng Tạo</h6>
+                        <h2>Cập Nhật Đầy Đủ Giá Cả Những Phân Khúc Xe Trên Thị Trường</h2>
+                        <div class="car-news-icon">
+                            <span class="icon">
+                                <i class="fa-regular fa-user"></i>Hieu
+                            </span>
+
+                            <span class="icon">
+                                <i class="fa-regular fa-calendar"></i>Mar 10,2024
+                            </span>
+                            <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+
+                        </div>
+                    </div>
+                    <div class="box col-xl-4 col-md-12 col-sm-12">
+                        <div class="car-news-img">
+                            <img src="./assets/images/news-img/anh-new2.png">
+                        </div>
+                        <h6>Thiết Kế Sáng Tạo</h6>
+                        <h2>Hợp Đồng Đại Lý Dựa Trên Hợp Đồng Với Nhà Sản Xuất Oto</h2>
+                        <div class="car-news-icon">
+                            <span class="icon"><i class="fa-regular fa-user"></i>Hieu</span>
+                            <span class="icon"><i class="fa-regular fa-calendar"></i>Mar 10,2024</span>
+                            <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                    <div class="box col-xl-4 col-md-12 col-sm-12">
+                        <div class="car-news-img">
+                            <img src="./assets/images/news-img/anh-new7.png">
+                        </div>
+                        <h6>Thiết Kế Sáng Tạo</h6>
+                        <h2>Những Mẫu Xe Mới Nhất Trên Thị Trường Hiện Nay</h2>
+                        <div class="car-news-icon">
+                            <span class="icon">
+                                <i class="fa-regular fa-user"></i>Hieu
+                            </span>
+                            <span class="icon"><i class="fa-regular fa-calendar"></i>Mar 10,2024</span>
+                            <span class="icon"><i class="fa-solid fa-arrow-right"></i></span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end car-news -->
+
+        <!-- car-factArea -->
+        <div class="car-factArea">
+            <h3 class="car-factArea__title">
+                Chọn xe đúng ý, lái niềm hạnh phúc
+            </h3>
+            <div class="container">
+                <div class="row">
+                    <div class="car-factArea-z col-xl-3 col-md-6 col-12">
+                        <div class="car-factArea__item">
+                            <i class="fa-solid fa-car car-factArea__icon"></i>
+                            <div class="car-factArea__content">
+                                <p class="car-factArea__quantity">
+                                    2990+
+                                </p>
+                                <p class="car-factArea__desc">
+                                    XE MỚI CÓ SẴN
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="car-factArea-z col-xl-3 col-md-6 col-12">
+                        <div class="car-factArea__item">
+                            <i class="fa-solid fa-truck-fast car-factArea__icon"></i>
+                            <div class="car-factArea__content">
+                                <p class="car-factArea__quantity">
+                                    4506+
+                                </p>
+                                <p class="car-factArea__desc">
+                                    XE ĐÃ QUA SỬ DỤNG
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="car-factArea-z col-xl-3 col-md-6 col-12">
+                        <div class="car-factArea__item">
+                            <i class="fa-solid fa-gear car-factArea__icon"></i>
+                            <div class="car-factArea__content">
+                                <p class="car-factArea__quantity">
+                                    1003+
+                                </p>
+                                <p class="car-factArea__desc">
+                                    TRUNG TÂM DỊCH VỤ
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="car-factArea-z col-xl-3 col-md-6 col-12">
+                        <div class="car-factArea__item">
+                            <i class="fa-solid fa-thumbs-up car-factArea__icon"></i>
+                            <div class="car-factArea__content">
+                                <p class="car-factArea__quantity">
+                                    70K
+                                </p>
+                                <p class="car-factArea__desc">
+                                    KHÁCH HÀNG HÀI LÒNG
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- end car-factArea -->
+
+
+        <section id="footer"></section>
+        <div id="overlay"></div>
+        <script type="module" src="../assets/js/main.js"></script>
+        <script src="../assets/js/loadComponent.js"></script>
+        <script src="../assets/js/header.js"></script>
+</body>
+
+</html>
