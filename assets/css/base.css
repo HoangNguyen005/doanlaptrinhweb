@@ -1,5 +1,5 @@
-@import "/assets/css/header.css";
-@import "/assets/css/footer.css";
+@import "assets/css/header.css";
+@import "assets/css/footer.css";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap');
 
 :root {
